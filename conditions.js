@@ -6,7 +6,7 @@ let age =18;
 
 if(age >= 18){
 
-    console.log("Eligible");
+  //  console.log("Eligible");
 }
 
 
@@ -20,4 +20,33 @@ else{
     console.log("not eligible");
 }
 
-// programming using switch 
+// Check the number is even or odd
+
+let num = 5, check;
+
+if(num%2 == 0){
+    console.log('Even')
+}
+
+else{
+    console.log('Odd');
+}
+
+
+
+
+
+//  using switch
+
+let x= 2;
+
+switch(x){
+    case 1:
+        console.log('i am not X');
+        break;
+    case 2:
+        console.log("I am not");
+        break;
+    case 5:
+        console.log("you won");
+}
